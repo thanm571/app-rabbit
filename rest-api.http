@@ -1,0 +1,15 @@
+#KEY A
+
+###
+
+POST http://localhost:8080/send?exchange=exchange.A&routingKey=routing.A&message=Hello%20Queue%20A
+
+###
+
+#KEY B
+POST http://localhost:8080/send?exchange=exchange.B&routingKey=routing.B&message=Hello%20Queue%20B
+
+###
+
+#KEY C (not found)
+POST http://localhost:8080/send?exchange=exchange.C&routingKey=routing.C&message=Hello%20Queue%20C

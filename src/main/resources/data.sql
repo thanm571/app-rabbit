@@ -1,0 +1,2 @@
+INSERT INTO queue_config (queue_name, exchange_name, routing_key) VALUES ('queue.A', 'exchange.A', 'routing.A');
+INSERT INTO queue_config (queue_name, exchange_name, routing_key) VALUES ('queue.B', 'exchange.B', 'routing.B');
